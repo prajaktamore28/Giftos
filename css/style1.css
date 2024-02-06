@@ -1,0 +1,620 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+/* mobile */
+
+body{
+ padding:18px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.h1-div h1 , .bar-div i{
+  font-size: 25px;
+}
+.main{
+  background-color: #F89CAB;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.nav{
+  display:none;
+}
+.cta-info h1{
+  padding:30px;
+  color: white;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.cta-info p{
+  color: white;
+  line-height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.cta-button{
+  text-align: center;
+}
+.cta-button button{
+  text-align:center;
+  margin-top: 40px;
+  color:white;
+  background-color: rgb(219,79,102);
+  font-size:16px;
+  padding:15px 35px;
+  border-radius: 7px;
+}
+.cta-img{
+  text-align: center;
+  margin-top: 45px;
+}
+.cta-button2{
+  margin-top: 40px;
+  text-align:center;
+}
+.cta-button2 button{
+font-size:10px;
+padding:10px 20px;
+text-align:center;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+background-color: white;
+width:70%;
+}
+.cta-button2 img{
+  width:70%;
+  margin:5px;
+}
+
+.latest-product h2{
+  text-align: center;
+  margin:60px 30px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+ .gift1 ,.gift2 ,.gift3 ,.gift4 ,.gift5 ,.gift6 ,.gift7 ,.gift8{
+  background-color:#EEEEEE;
+  margin-bottom:20px;
+  padding:20px;
+}
+.gift1 img ,.gift2 img , .gift3 img, .gift4 img, .gift5 img , .gift6 img , .gift7 img , .gift8 img{
+  width: 66%;
+  height: 83%;
+  display: block;
+  object-fit:fill;
+  margin: 0 auto;
+}
+.gf1, .gf2, .gf3, .gf4, .gf5, .gf6, .gf7, .gf8{
+  display: flex;
+  justify-content: space-between;
+}
+.latest-product strong{
+ margin-top: 20px;
+}
+.latest-product p{
+  margin-top: 20px;
+}
+.latest-product span{
+  color: red;
+}
+.latest-product-button{
+  text-align: center;
+}
+.latest-product-button button{
+  text-align:center;
+  margin-top: 20px;
+  color:white;
+  background-color: rgb(219,79,102);
+  padding:15px 40px;
+  border-radius: 7px;
+}
+
+.best-saving{
+  background-color: #7FD7EB;
+  margin-top: 70px;
+  border-radius:10px;
+}
+.best-saving-info h2{
+  padding:30px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.best-saving-info p{
+  color: white;
+  line-height: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.best-saving-button1{
+  margin-left: 30px;
+}
+.best-saving-button1 button{
+  text-align:center;
+  margin-top: 40px;
+  color:white;
+  background-color: rgb(16,157,189);
+  font-size:16px;
+  padding:12px 35px;
+}
+.best-saving-button2{
+  margin-left: 30px;
+}
+.best-saving-button2 button{
+  text-align:center;
+  margin-top: 10px;
+  font-size:16px;
+  padding:12px 33px;
+}
+.best-saving-image2 {
+  margin-top: 45px;
+  text-align: center;
+}
+.best-saving-image2 img{
+  width:210px;
+}
+.best-saving-image1{
+  display: none;
+}
+
+.shop-with-us h2{
+  text-align: center;
+  margin:60px 0;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.delivery, .shipping, .quality{
+  background-color:#EEEEEE;
+  text-align: center;
+  height: 220px;
+  margin-bottom: 30px;
+}
+.delivery i{
+  margin: 30px 0;
+  font-size: 50px;
+}
+.delivery p{
+  margin:10px 30px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+.shipping i{
+  margin: 30px 0;
+  font-size: 50px;
+}
+.shipping p{
+  margin:10px 30px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+.quality i{
+  margin: 30px 0;
+  font-size: 50px;
+}
+.quality p{
+  margin:10px 30px;
+  line-height: 25px;
+  margin-bottom: 40px;
+} 
+
+.gifts-for-loved{
+  background-color: #6929A5;
+  border-radius:10px;
+  margin-top: 80px;
+}
+.gifts-for-loved-img img{
+  margin:50px 30px;
+  width:230px;
+}
+.gifts-for-loved-info h2{
+  margin:0 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.gifts-for-loved-info p{
+  line-height: 25px;
+  margin:0 30px 30px 30px;
+  font-size: 18px;
+  color: white; 
+}
+.gifts-for-loved-button1 button{
+  text-align:center;
+  margin-top: 10px;
+  font-size:16px;
+  padding:12px 35px;
+}
+.gifts-for-loved-button2 button{
+  text-align:center;
+  margin-top: 10px;
+  font-size:16px;
+  padding:12px 33px;
+  background-color: rgb(146,66,221);
+  color: white;
+  margin-bottom:40px;
+}
+.gifts-for-loved-button1 , .gifts-for-loved-button2{
+  margin-left: 30px;
+}
+
+.contact{
+  box-shadow:1px 2px 5px 1px #888888;
+}
+.contact-h2 h2{
+  margin:60px 0 30px 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.map iframe{
+  width:100%;
+  height: 100%;
+}
+.contact-form{
+  text-align: center; 
+}
+.contact-form input{
+  width:80%;
+  height:40px;
+  display:block;
+  border:2px solid grey;
+  margin: 20px 0 0 25px;
+  padding: 25px;
+}
+textarea{
+  width:80%;
+  height:100px;
+  display:block;
+  border:2px solid grey;
+  margin: 20px 0 0 25px;
+  padding: 25px;
+}
+::placeholder{
+  color: black;
+}
+.contact-form button{
+  text-align:center;
+  margin: 50px 0;
+  color:white;
+  background-color: rgb(219,79,102);
+  padding:20px 45px;
+}
+
+.testimonial h2{
+  text-align: center;
+  margin:60px 0;
+  font-size: 30px;
+}
+.testimonial-d1{
+  box-shadow:1px 2px 5px 1px #888888;
+  padding:20px;
+}
+.testimonial-d1 h3{
+  color: rgb(219,79,102);
+  font-size: 25px;
+  margin: 13px 0 ;
+  letter-spacing: 1px;
+}
+.testimonial-d1 span{
+  color: gray;
+  font-size: 18px;
+}
+.testimonial-d1 p{
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin:20px 0;
+  font-size: 18px;
+}
+.arrows{
+text-align: center;
+margin-top: 40px;
+}
+.arrows i{
+  background-color:rgb(219,79,102);
+  padding:15px;
+  color: white;
+}
+.footer-div{
+  background-color: #2D2D2D;
+  margin-top: 60px;
+}
+.icon{
+  display: flex;
+  justify-content:center; 
+}
+.icon i{
+  font-size:20px;
+  padding:10px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.flex-div  span{
+  text-align:center;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  font-size: 17px;
+  color: white;
+}
+.flex-div1 , .flex-div3 p{
+  text-align: center;
+  line-height: 20px;
+  margin-bottom:20px;
+  color: white;
+}
+.flex-div2 input{
+  width:90%;
+  height:40px;
+  display:block;
+  border:2px solid grey;
+  margin-top: 2px;
+  padding: 15px;
+  margin-left: 10px;
+}
+.flex-div2 button{
+  text-align:center;
+  margin: 10px 45px;
+  color:white;
+  background-color: rgb(219,79,102);
+  padding:10px 40px;
+}
+.flex-div4 div{
+  display:flex;
+  text-align: center;
+  color: white;
+  margin:25px 0 0 20px;
+}
+.flex-div4{
+  margin-bottom:30px;
+}
+
+.footer{
+  border-top:2px solid white;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.foot{
+  margin-top: 90px;
+}
+/* Tablet */
+
+@media (min-width:768px){
+.cta{
+  display: flex;
+}
+.cta-info{
+  width:55%;
+}
+.cta-button{
+  text-align: left;
+  margin-left: 30px;
+}
+.cta-button2{
+  width:40%;
+}
+
+.gifts11{
+  display: flex;
+  justify-content:center;
+  column-gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.gift1, .gift2, .gift3, .gift4, .gift5, .gift6, .gift7, .gift8{
+  width:30%;
+}
+
+.bf{
+  display: flex;
+}
+.best-saving-button2{
+  margin-left: 10px;
+}
+.best-saving-info h2{
+  width:50%;
+}
+.best-saving-button2 button{
+  margin-top: 40px;
+} 
+.best-saving-image2 img{
+width:600px;
+}
+.best-saving-image1{
+  display: none;
+}
+.shop-with-us-flex{
+  display: flex;
+  column-gap: 20px;
+}
+.gifts-for-loved{
+  display: flex;
+}
+.gifts-for-loved-info h2{
+  margin-top: 30px;
+}
+.gifts-for-loved-img img{
+  object-fit:contain;
+}
+
+.contact{
+  display: flex;
+}
+.contact-form{
+  width:100%;
+}
+
+.flex-div span{
+  font-weight: bold;
+}
+.f1{
+  display: flex;
+  column-gap: 30px;
+}
+.f2{
+    display: flex;
+    column-gap: 30px;
+}
+.flex-div1{
+  width: 50%;
+}
+
+.flex-div3{
+  width: 50%;
+}
+.flex-div1 p, .flex-div3 p{
+  margin-left:10px;
+}
+}
+
+/*laptop*/
+
+@media (min-width:992px){
+.head{
+  display: inline;
+}
+
+.main{
+  border-radius:10px;
+}
+
+.h1-div h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bar-div{
+  display: none;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: #F9ECE6;
+  padding:20px;
+}
+.nav a{
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.cta-info{
+  margin-top: 100px;
+}
+
+.cta-info p{
+  width:100%;
+}
+
+.cta-img{
+  margin-left: 80px;
+}
+
+.cta-button2{
+  width:30%;
+}
+
+.gift1, .gift2, .gift3, .gift4, .gift5, .gift6, .gift7, .gift8{
+width:20%;
+}
+
+.best-saving{
+  display: flex;
+}
+.best-saving-image1{
+  display:inline;
+  height: 100%;
+  width: 100%;
+  margin-top: 130px;
+}
+.best-saving-image2{
+  display: none;
+}
+.best-saving-info h2{
+  margin-top: 30px;
+  width:60%;
+}
+
+.bf{
+  margin-bottom: 40px;
+}
+.gifts-for-loved-info{
+  margin-left: 30px;
+}
+.gifts-for-loved-info h2{
+  margin-top: 100px;
+  width:50%;
+}
+.loved-buttons{
+  display: flex;
+}
+.gifts-for-loved-button2 {
+  margin-left:10px;
+}
+.gifts-for-loved-img{
+  display:inline;
+  height: 100%;
+  width: 100%;
+}
+.gifts-for-loved-img img{
+  height: 100%;
+  width: 100%;
+}
+.flex-div{
+  display: flex;
+}
+}
+
+@media(min-width:1500px){
+  .shop-with-us-flex{
+  margin-left:15%;
+  }
+}
+/* hover effect */
+.cta-button button:hover{
+  background-color: white;
+  color:rgb(219,79,102);
+}
+.latest-product-button button:hover{
+  background-color: #F89CAB;
+  color: white;
+}
+.best-saving-button1 button:hover{
+  background-color: white;
+  color:rgb(16,157,189);
+}
+.best-saving-button2 button:hover{
+  background-color: rgb(16,157,189);
+  color:white;
+}
+.delivery:hover, .shipping:hover,.quality:hover{
+  background-color:#6929A5;
+  color: white;
+}
